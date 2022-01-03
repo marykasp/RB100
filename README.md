@@ -12,5 +12,5 @@
   - [ch7](./ch7-hashes)
   - [ch8](./ch8-more_stuff)
   - [book exercises](./exercises)
-- **Ruby Basics** exercises
+- [**Ruby Basics** exercises](./ruby-basics)
 - [Ruby documentation](https://ruby-doc.org)
