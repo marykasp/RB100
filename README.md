@@ -10,5 +10,7 @@
   - [ch5](./ch5-loops_iterators)
   - [ch6](./ch6-arrays)
   - [ch7](./ch7-hashes)
+  - [ch8](./ch8-more_stuff)
+  - [book exercises](./exercises)
 - **Ruby Basics** exercises
 - [Ruby documentation](https://ruby-doc.org)
