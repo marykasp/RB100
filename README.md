@@ -1,5 +1,9 @@
 # Launch School Introduction to Ruby
 
+Notes and exercises for [Launch School's Ruby Track](https://launchschool.com/course_catalog)
+
+- just includes the exercises from the **Introduction to Programming with Ruby book** and the **Ruby Basics**exercises
+
 [Launch School RB100](https://launchschool.com/books/ruby)
 
 - exercises from **Introduction to Ruby** Launch School book
