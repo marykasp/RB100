@@ -61,3 +61,48 @@ end
 ```
 
  Want to call the `greeting` method two times. We will make our conditional evaluate to `true` until `number_of_greetings` is less than 1. We control the value of `number_of_greetings` by subtracting 1 on each iteration. To print `"Hello!"` we just need to invoke the `greeting`method provided to us inside the `while` loop.
+
+## User Input
+
+### Exericse 1
+
+```ruby
+puts ">> Type anything you want: "
+result = gets.chomp
+
+puts result
+```
+
+This program first uses `#puts` to display a prompt. After displaying the prompt, we use `#gets` to read a line of input from the user and store it a variable named `text`. Also use `chomp` to remove the `\n` newline symbol added after the end of the user entry.
+
+Finally, we use `#puts` a second time to redisplay what the user typed.
+
+### Exercise 2
+
+```ruby
+puts "What is your age? "
+# gets returns a string convert to an integer before using
+age = gets.chomp.to_i
+
+months_in_year = 12
+age_to_months = age * 12
+
+puts "Age: #{age}, you are #{age_to_months} months old"
+```
+
+`#puts` to display a prompt and output our results. and use `#gets` to obtain a value from the user. Since we need to perform a calculation on the input value we need to convert it from a String to an Integer by using the `to_i` method. We then multiple the result by 12 to get the age in months.
+
+### Exercise 3
+
+```ruby
+puts ">> Do you want me to print something? (y/n) "
+answer = gets.chomp
+
+if answer == 'y'
+  puts "something"
+end
+```
+
+Here we display an appropriate prompt using `#puts`, obtain the user's input with `#gets`, and finally, print `something` with `#puts` if the user entered a `y`. Note that we now need to use `#chomp` on the return value of `#gets`; if we don't, the newline character will be included in `choice`, and `choice == 'y'` will return `false`.
+
+Can also put if statement on one line `puts "somethinng" if answer == 'y'`
